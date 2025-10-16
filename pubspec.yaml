@@ -1,0 +1,18 @@
+name: launcher_helper
+description: A plugin to launch another Android launcher dynamically.
+version: 0.0.1
+homepage: https://github.com/TON-UTILISATEUR/launcher_helper
+
+environment:
+  sdk: ">=2.17.0 <4.0.0"
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.example.launcher_helper
+        pluginClass: LauncherHelperPlugin
+
+dependencies:
+  flutter:
+    sdk: flutter
